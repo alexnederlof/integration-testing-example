@@ -10,9 +10,9 @@ import org.junit.runners.Parameterized;
 import com.thoughtworks.selenium.Selenium;
 
 @RunWith(Parameterized.class)
-public class TestDriver extends MultiBrowserTest {
+public class SimpleSeleniumTest extends MultiBrowserTest {
 
-	public TestDriver(String browser) {
+	public SimpleSeleniumTest(String browser) {
 		super(browser);
 	}
 
