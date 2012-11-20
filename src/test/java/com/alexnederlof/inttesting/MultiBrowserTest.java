@@ -14,7 +14,7 @@ import com.thoughtworks.selenium.Selenium;
 public abstract class MultiBrowserTest implements SlowTest {
 
 	private static final String BASE_URL = MyWebServer.BASE_URL;
-	private static final String SELENIUM_HOST = "10.13.54.8";
+	private static final String SELENIUM_HOST = "127.0.0.1";
 	private static final int SELENIUM_PORT = 4443;
 
 	@Parameters(name = "browser={0}")
